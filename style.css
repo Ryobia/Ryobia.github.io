@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+}
+
+a {
+    color: red;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+header {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 0 1em;
+
+}
+
+.grid1{
+    line-height: 2;
+}
+
+.grid2 {
+    padding: 40px 0;
+    line-height: 1.7;
+    font-size: 18px;
+}
+
+.grid3 {
+    line-height: 1.5;
+}
+
+.grid3 h2 {
+    text-align: center;
+}
